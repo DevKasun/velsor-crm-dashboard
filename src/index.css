@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme {
+    --color-dark-button-bg: #2F2F2F;
+}
+
 html {
     @apply text-white bg-black;
 }
