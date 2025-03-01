@@ -2,6 +2,7 @@
 
 @theme {
     --color-dark-button-bg: #2F2F2F;
+    --color-light-button-text: #fff;
 }
 
 html {
