@@ -1,16 +1,13 @@
 import { Link } from 'react-router';
-import logo from '../../assets/icons/app-logo.svg';
 import settingsIcon from '../../assets/icons/settings.svg';
 import bellIcon from '../../assets/icons/bell.svg';
 import avatar from '../../assets/avatar.svg';
 
 export default function Navbar() {
 	return (
-		<header className='py-4 px-6'>
+		<header className='px-4'>
 			<nav className='container min-w-full flex items-center justify-between'>
-				<Link to='/'>
-					<img src={logo} alt='' />
-				</Link>
+				<div></div>
 
 				<menu className='flex items-center gap-4'>
 					<Link

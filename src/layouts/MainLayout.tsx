@@ -4,10 +4,10 @@ import Sidebar from '../components/sidebar/sidebar';
 
 const MainLayout = () => {
 	return (
-		<div className='min-h-screen'>
-			<Navbar />
-			<main>
-				<Sidebar />
+		<div className='min-h-screen flex flex-row gap-8'>
+			<Sidebar />
+			<main className='flex-1'>
+				<Navbar />
 				<Outlet />
 			</main>
 		</div>
