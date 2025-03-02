@@ -1,59 +1,42 @@
-import { Link } from 'react-router';
-import logo from '../../assets/icons/app-logo.svg';
 import settingsIcon from '../../assets/icons/settings.svg';
 import bellIcon from '../../assets/icons/bell.svg';
 import avatar from '../../assets/avatar.svg';
+import Button from '../button/button';
 
 export default function Navbar() {
 	return (
-		<header className='py-4 px-6'>
+		<header className='px-4'>
 			<nav className='container min-w-full flex items-center justify-between'>
-				<Link to='/'>
-					<img src={logo} alt='' />
-				</Link>
+				<div></div>
 
 				<menu className='flex items-center gap-4'>
-					<Link
-						to='/'
-						className='bg-dark-button-bg px-4 py-2 rounded-full'
-					>
-						Overview
-					</Link>
-					<Link
-						to='/'
-						className='bg-dark-button-bg px-4 py-2 rounded-full'
-					>
-						Performance
-					</Link>
-					<Link
-						to='/'
-						className='bg-dark-button-bg px-4 py-2 rounded-full'
-					>
-						Activity
-					</Link>
-					<Link
-						to='/'
-						className='bg-dark-button-bg px-4 py-2 rounded-full'
-					>
-						Deals
-					</Link>
+					<Button to='/'>Overview</Button>
+					<Button to='/'>Performance</Button>
+					<Button to='/'>Activity</Button>
+					<Button to='/'>Deals</Button>
 				</menu>
 				<menu className='flex items-center gap-4'>
-					<Link
+					<Button
+						isIconButton={true}
 						to='/'
-						className='flex items-center justify-center bg-dark-button-bg w-[48px] h-[48px] rounded-full'
+						className='w-[48px] h-[48px]'
 					>
 						<img src={settingsIcon} alt='settings_icon' />
-					</Link>
-					<Link
+					</Button>
+					<Button
+						isIconButton={true}
 						to='/'
-						className='flex items-center justify-center bg-dark-button-bg w-[48px] h-[48px] rounded-full'
+						className='w-[48px] h-[48px]'
 					>
 						<img src={bellIcon} alt='bell_icon' />
-					</Link>
-					<button className='bg-dark-button-bg w-[48px] h-[48px] rounded-full overflow-hidden'>
+					</Button>
+					<Button
+						isIconButton={true}
+						to='/'
+						className='w-[48px] h-[48px]'
+					>
 						<img src={avatar} alt='avatar' />
-					</button>
+					</Button>
 				</menu>
 			</nav>
 		</header>
