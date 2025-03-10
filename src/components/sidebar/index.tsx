@@ -1,5 +1,5 @@
 import logo from '../../assets/icons/app-logo.svg';
-import Button from '../button/button';
+import Button from '../button';
 
 import Icon1 from '../../assets/icons/sidebar-icon-1.svg';
 import Icon2 from '../../assets/icons/sidebar-icon-2.svg';
