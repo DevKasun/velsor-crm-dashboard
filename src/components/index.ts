@@ -1,6 +1,9 @@
-import Sidebar from '@components/sidebar/sidebar';
+import Sidebar from '@/components/sidebar';
+import Button from '@/components/button';
+import Dashboard from '@/components/dashboard';
+import Navbar from '@/components/navbar';
 
 export {
-    Sidebar
+    Sidebar, Button, Dashboard, Navbar
 }
 

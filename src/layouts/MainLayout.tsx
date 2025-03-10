@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router';
-import Navbar from '../components/navbar/navbar';
+import Navbar from '../components/navbar';
 import Sidebar from '../components/sidebar';
 
 const MainLayout = () => {

@@ -1,7 +1,7 @@
 import settingsIcon from '../../assets/icons/settings.svg';
 import bellIcon from '../../assets/icons/bell.svg';
 import avatar from '../../assets/avatar.svg';
-import Button from '../button/button';
+import Button from '../button';
 
 export default function Navbar() {
 	return (
