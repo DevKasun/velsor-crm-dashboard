@@ -1,9 +1,6 @@
-import Sidebar from '@/components/sidebar';
-import Button from '@/components/button';
-import Dashboard from '@/components/dashboard';
-import Navbar from '@/components/navbar';
+import Sidebar from "./sidebar";
+import Button from "./button";
+import Dashboard from "./dashboard";
+import Navbar from "./navbar";
 
-export {
-    Sidebar, Button, Dashboard, Navbar
-}
-
+export { Sidebar, Button, Dashboard, Navbar };
